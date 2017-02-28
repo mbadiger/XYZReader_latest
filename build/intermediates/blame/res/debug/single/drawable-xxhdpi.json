@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Saanu_mac/test/XYZReader/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_arrow_back.png",
+        "source": "/Users/Saanu_mac/test/XYZReader/src/main/res/drawable-xxhdpi/ic_arrow_back.png"
+    },
+    {
+        "merged": "/Users/Saanu_mac/test/XYZReader/build/intermediates/res/merged/debug/drawable-xxhdpi/logo.png",
+        "source": "/Users/Saanu_mac/test/XYZReader/src/main/res/drawable-xxhdpi/logo.png"
+    },
+    {
+        "merged": "/Users/Saanu_mac/test/XYZReader/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_share.png",
+        "source": "/Users/Saanu_mac/test/XYZReader/src/main/res/drawable-xxhdpi/ic_share.png"
+    }
+]

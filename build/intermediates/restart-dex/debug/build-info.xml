@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="23"
+    density="560dpi"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="104108975120375"
+    token="4694414708274398423"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="698" />
+    <task
+        name="instant-run-dex"
+        duration="561" />
+    <task
+        name="instant-run-transform"
+        duration="20" />
+    <task
+        name="verifier"
+        duration="1" />
+
+    <artifact
+        location="/Users/Saanu_mac/test/XYZReader/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        timestamp="102558894837484"
+        verifier="MANIFEST_FILE_CHANGE" >
+        <artifact
+            location="/Users/Saanu_mac/test/XYZReader/build/outputs/apk/XYZReader-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="104071577187085"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/Saanu_mac/test/XYZReader/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="/Users/Saanu_mac/test/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/Saanu_mac/test/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/Saanu_mac/test/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/Saanu_mac/test/XYZReader/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="104108975120375"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/Saanu_mac/test/XYZReader/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

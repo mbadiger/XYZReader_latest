@@ -1,0 +1,58 @@
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <color name="photo_placeholder">#ccc</color>
+
+    <color name="theme_primary">#04561A</color>
+    <color name="theme_primary_dark">#04561A</color>
+    <color name="theme_accent">#04561A</color>
+    <color name="ltgray">#ffe0e0e0</color>
+    <color name="colorLightPrimary">#FFCCBC</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="colorDivider">#B6B6B6</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#9E9E9E</color>
+    <color name="colorPrimaryDark">#616161</color>
+
+    <color name="window_background">#FFF5F5F5</color>
+
+</resources>
+
+    <!--
+    <resources>
+        <color name="photo_placeholder">#ccc</color>
+    &lt;!&ndash; Material color palette &ndash;&gt;
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+    <color name="colorAccent">#009688</color>
+    <color name="colorLightPrimary">#FFCCBC</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="colorDivider">#B6B6B6</color>
+
+    &lt;!&ndash; Text colors &ndash;&gt;
+    <color name="color_title_inverse">#DEFFFFFF</color>
+    <color name="color_subtitle_inverse">#8AFFFFFF</color>
+
+    &lt;!&ndash; Colors for SwipeRefreshLayout &ndash;&gt;
+    <array name="swipe_refresh_layout_colors">
+        <item>@color/colorPrimary</item>
+        <item>@color/colorAccent</item>
+    </array>
+    </resources>-->
