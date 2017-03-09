@@ -126,9 +126,9 @@ public class ArticleDetailFragment extends Fragment implements
 
             slide.addTarget(R.id.article_body1);
             slide.setInterpolator(AnimationUtils.loadInterpolator(getActivity(), android.R.interpolator.linear_out_slow_in));
-            slide.setDuration(5000);
+            slide.setDuration(500);
             setEnterTransition(slide);
-            //getActivity().getWindow().setEnterTransition(slide);
+            getActivity().getWindow().setEnterTransition(slide);
 
         }
 

@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/Saanu_mac/test/XYZReader/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/Users/Saanu_mac/test/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.4.0_470f8886f03c561bd4d2e0cefd11c28d27845bf0.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/Saanu_mac/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
         jumboMode="false"
         optimize="true"
@@ -27,6 +36,24 @@
         revision="23.0.2"
         sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
         <dex dex="/Users/Saanu_mac/test/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_5fa04a54c93fbae9ce778908cf457ffd13c1096d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Saanu_mac/test/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/Saanu_mac/test/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-design-23.4.0_0c84e10dc821d9c80cf88c4e75be90cd76cceab8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Saanu_mac/test/XYZReader/build/intermediates/exploded-aar/com.android.support/palette-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="51518e8e8f97c314a243d9def0ded91d385b6a1e">
+        <dex dex="/Users/Saanu_mac/test/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-palette-v7-23.4.0_45085bfe67873868152a1a49a5fa55f932bb4591.jar" />
     </item>
     <item
         is-multidex="false"
@@ -57,51 +84,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/Saanu_mac/test/XYZReader/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/Users/Saanu_mac/test/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_64ce7e42b36a435b7ae15d57285cbc8285f9e28c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Saanu_mac/test/XYZReader/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
-        <dex dex="/Users/Saanu_mac/test/XYZReader/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_da574b0d39238b8afc19907572c39510711ebe27.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Saanu_mac/test/XYZReader/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
-        <dex dex="/Users/Saanu_mac/test/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.4.0_470f8886f03c561bd4d2e0cefd11c28d27845bf0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Saanu_mac/test/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="/Users/Saanu_mac/test/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-design-23.4.0_0c84e10dc821d9c80cf88c4e75be90cd76cceab8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/Saanu_mac/test/XYZReader/build/intermediates/exploded-aar/com.android.support/palette-v7/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="51518e8e8f97c314a243d9def0ded91d385b6a1e">
-        <dex dex="/Users/Saanu_mac/test/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-palette-v7-23.4.0_45085bfe67873868152a1a49a5fa55f932bb4591.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/Saanu_mac/test/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v13/23.4.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -129,12 +111,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/Saanu_mac/test/XYZReader/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/Saanu_mac/test/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_64ce7e42b36a435b7ae15d57285cbc8285f9e28c.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/Saanu_mac/test/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
         <dex dex="/Users/Saanu_mac/test/XYZReader/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_0ae6eadd9095d8fb0c400aeda5ee1bea71e5776f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Saanu_mac/test/XYZReader/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/Saanu_mac/test/XYZReader/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_da574b0d39238b8afc19907572c39510711ebe27.jar" />
     </item>
     <item
         is-multidex="false"

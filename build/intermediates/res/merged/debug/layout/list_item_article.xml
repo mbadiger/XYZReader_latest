@@ -19,8 +19,9 @@
         <!--suppress AndroidLintContentDescription -->
         <com.example.xyzreader.ui.DynamicHeightNetworkImageView
             android:id="@+id/thumbnail"
+            android:transitionName="@string/transition_photo"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="0dp"
             android:background="@color/photo_placeholder" />
 
         <TextView
@@ -54,71 +55,3 @@
     </LinearLayout>
 
 </android.support.v7.widget.CardView>
-
-<!--
-<android.support.v7.widget.CardView
-xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:layout_margin="@dimen/recycler_view_padding"
-android:clickable="true"
-android:focusable="true"
-android:foreground="?selectableItemBackground"
-app:cardCornerRadius="@dimen/card_view_corner_radius">
-
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
-
-    <ImageView
-        android:id="@+id/thumbnail"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/thumbnail_height"
-        android:background="@color/colorLightPrimary"
-        android:scaleType="centerCrop"
-        />
-
-    <LinearLayout
-        android:id="@+id/article_item_footer_container"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?colorPrimary"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/article_title"
-            style="@style/TextAppearance.AppCompat.Subhead"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingLeft="@dimen/item_text_padding"
-            android:paddingRight="@dimen/item_text_padding"
-            android:paddingTop="@dimen/item_text_padding"
-            android:paddingBottom="@dimen/item_text_padding_buttom"
-            android:ellipsize="end"
-            android:maxLines="4"
-            android:textColor="@color/color_title_inverse"
-            />
-
-        <TextView
-            android:id="@+id/article_subtitle"
-            style="@style/TextAppearance.AppCompat.Body1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingLeft="@dimen/item_text_padding"
-            android:paddingRight="@dimen/item_text_padding"
-            android:paddingBottom="@dimen/item_text_padding"
-            android:maxLines="1"
-            android:singleLine="true"
-            android:ellipsize="end"
-            android:textColor="@color/color_subtitle_inverse"
-            />
-
-    </LinearLayout>
-
-</LinearLayout>
-
-</android.support.v7.widget.CardView>
--->

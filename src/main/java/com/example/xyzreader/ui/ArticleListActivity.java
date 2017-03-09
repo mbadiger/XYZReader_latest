@@ -1,5 +1,7 @@
 package com.example.xyzreader.ui;
 
+import android.app.Activity;
+import android.app.ActivityOptions;
 import android.app.LoaderManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -17,8 +19,6 @@ import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.text.format.DateUtils;
 import android.transition.Explode;
-import android.transition.Transition;
-import android.transition.TransitionManager;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
@@ -64,6 +64,8 @@ public class ArticleListActivity extends AppCompatActivity implements
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         getLoaderManager().initLoader(0, null, this);
+
+        getWindow().setExitTransition(new Explode());
 
         if (savedInstanceState == null) {
             refresh();
@@ -140,8 +142,9 @@ public class ArticleListActivity extends AppCompatActivity implements
         }
 
         @Override
-        public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        public ViewHolder onCreateViewHolder(final ViewGroup parent, int viewType) {
             View view = getLayoutInflater().inflate(R.layout.list_item_article, parent, false);
+
             final ViewHolder vh = new ViewHolder(view);
             view.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -151,37 +154,12 @@ public class ArticleListActivity extends AppCompatActivity implements
                         final Rect viewRect = new Rect();
                         view.getGlobalVisibleRect(viewRect);
 
-                        // create Explode transition with epicenter
-                      /*  Transition explode = new Explode().setEpicenterCallback(new Transition.EpicenterCallback() {
-                                    @Override
-                                    public Rect onGetEpicenter(Transition transition) {
-                                        return viewRect;
-                                    }
-                                });*/
-
-
-                        Explode explode = new Explode();
-                        explodeTransitionPrep(explode, view);
-                        explode.setDuration(5000);
-                        TransitionManager.beginDelayedTransition(mRecyclerView, explode);
-                        //getWindow().setExitTransition(explode);
-
                     }
+
                     startActivity(new Intent(Intent.ACTION_VIEW,
-                            ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition()))));
+                            ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition()))), ActivityOptions.makeSceneTransitionAnimation((Activity) view.getContext(), vh.thumbnailView, vh.thumbnailView.getTransitionName()).toBundle());
                 }
 
-                private void explodeTransitionPrep(Explode explode, View clickedView) {
-                    final Rect viewRect = new Rect();
-                    clickedView.getGlobalVisibleRect(viewRect);
-
-                    explode.setEpicenterCallback(new Transition.EpicenterCallback() {
-                        @Override
-                        public Rect onGetEpicenter(Transition transition) {
-                            return viewRect;
-                        }
-                    });
-                }
             });
             return vh;
         }

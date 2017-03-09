@@ -31,5 +31,6 @@
 <dimen name="item_text_padding_buttom">4dp</dimen>
 
     <dimen name="detail_backdrop_height">320dp</dimen>
+    <dimen name="app_bar_height">112dp</dimen>
 
 </resources>
